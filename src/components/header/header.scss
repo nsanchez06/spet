@@ -1,0 +1,60 @@
+.header {
+    position: fixed;
+    min-height: 80px;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    left: 0px;
+    height: 80px;
+    max-height: 20px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+      &__logo {
+        max-width: 30%;
+        cursor: pointer;
+        img {
+          margin: 20px;
+        }
+  
+      }
+      &__informations {
+        display: flex;
+        width: 30%;
+        align-items: center;
+        justify-content: space-around;
+        cursor: pointer;
+      }
+
+      &__search-container {
+        display: flex;
+        width: 30%;
+        align-items: center;
+        justify-content: space-around;
+          &-input {
+            background: #c6ffcd;
+            border: 1px solid #F2F2F2;
+            box-sizing: border-box;
+            border-radius: 24px;
+            width: 240px;
+            height: 40px;
+
+          }
+      }
+
+      &__login-cart {
+        display: flex;
+        width: 30%;
+        align-items: center;
+        justify-content: space-evenly;
+        cursor: pointer;
+          img {
+              width: 22px;
+              height: 15px;
+          }
+        }
+        &__login {
+          padding: 35px;
+        }
+  }

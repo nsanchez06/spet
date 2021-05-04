@@ -1,0 +1,39 @@
+.search {
+    img {
+        width: 16px;
+        height: 16px;
+        display: initial;
+        margin: 0px -20px -3px;
+    }
+
+    input  {
+        width: 240px;
+        height: 40px;
+        border: 1px solid #F2F2F2;
+        box-sizing: border-box;
+        border-radius: 24px;
+        background: #FFFFFF;
+        outline: none;
+    }
+
+}
+
+ul {
+    position: absolute;
+}
+
+.item {
+    display: block;
+    color: black;
+    font-family: 'Barlow';
+}
+
+
+::placeholder {
+    font-family: Barlow;
+    color: #EE0E7D;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+}
