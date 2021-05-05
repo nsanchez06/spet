@@ -20,9 +20,6 @@ function Header() {
         <span> Conheça a Jussi</span>
       </div>
 
-      <div className="header__search-container">
-      </div>
-
       <div className="header__login-cart">
         <Search />
         <span className="header__login">Login</span>

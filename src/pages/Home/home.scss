@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 body {
   overflow-x: hidden;
@@ -230,8 +230,7 @@ body {
     margin: 10px 176px;
 
     &__textContent {
-      width: 27%;
-      margin-left: 100px;
+      width: 50%;
     }
 
     &__title {
@@ -261,6 +260,7 @@ body {
 
     &__imagem {
       width: 50%;
+      margin: 0px 200px;
     }
 
   }
@@ -296,4 +296,4 @@ body {
   //       width: 100%;
   //     }
   // }
-} */
+} 

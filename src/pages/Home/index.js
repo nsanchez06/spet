@@ -36,7 +36,7 @@ export const Home = () => {
 
                         <div className="soluctions__product-one">
                             <div className="soluctions__productTitle">P1</div>
-                            <div className="soluctions__productName">Bicicleta</div>
+                            <div className="soluctions__productName">Nome do Produto #1</div>
                             <div className="soluctions__productDescription">Descrição do produto #1</div>
                             <div className="soluctions__productFeature">• Feature 1</div>
                             <div className="soluctions__productFeature">• Feature 2</div>
@@ -46,7 +46,7 @@ export const Home = () => {
 
                         <div className="soluctions__product-two">
                             <div className="soluctions__productTitle">P2</div>
-                            <div className="soluctions__productName">Pia</div>
+                            <div className="soluctions__productName">Nome do Produto #2</div>
                             <div className="soluctions__productDescription">Descrição do produto #2</div>
                             <div className="soluctions__productFeature">• Feature 1</div>
                             <div className="soluctions__productFeature">• Feature 2</div>
@@ -56,7 +56,7 @@ export const Home = () => {
 
                         <div className="soluctions__product-three">
                             <div className="soluctions__productTitle">P3</div>
-                            <div className="soluctions__productName"> Cadeira Gamer</div>
+                            <div className="soluctions__productName">Nome do Produto #3</div>
                             <div className="soluctions__productDescription">Descrição do produto #3</div>
                             <div className="soluctions__productFeature">• Feature 1</div>
                             <div className="soluctions__productFeature">• Feature 2</div>
@@ -66,7 +66,7 @@ export const Home = () => {
 
                         <div className="soluctions__product-four">
                             <div className="soluctions__productTitle">P4</div>
-                            <div className="soluctions__productName">Torneira</div>
+                            <div className="soluctions__productName">Nome do Produto #4</div>
                             <div className="soluctions__productDescription">Descrição do produto #4</div>
                             <div className="soluctions__productFeature">• Feature 1</div>
                             <div className="soluctions__productFeature">• Feature 2</div>

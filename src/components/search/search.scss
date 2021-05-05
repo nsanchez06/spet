@@ -1,34 +1,91 @@
-.search {
-    img {
-        width: 16px;
-        height: 16px;
-        display: initial;
-        margin: 0px -20px -3px;
-    }
-
-    input  {
-        width: 240px;
-        height: 40px;
-        border: 1px solid #F2F2F2;
-        box-sizing: border-box;
-        border-radius: 24px;
-        background: #FFFFFF;
-        outline: none;
-    }
+.header__search {
+    position: relative;
 
 }
 
-ul {
+.wrapper {
+    max-width: 100%;
+    padding: 0 1.5em;
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 1.5em;
+    overflow: hidden;
+    &:hover,
+    &.focus {
+      box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28)
+    }
+  }
+  .search {
+    display: flex;
+    height: 3em;
+    align-items: center;
+    input {
+      flex: 1;
+      width:100%;
+      border: 0;
+    }
+    i {
+      color: tomato;
+    }
+  }
+  :focus {
+    outline: none;
+  }
+  .searchImg {
+    height: 15px;
+  }
+  .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    top: 50px;
+    border-top: 1px solid lightgray;
+    background-color: #ffffff;
+    max-height: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    animation: enlarge .25s forwards;
     position: absolute;
-}
-
-.item {
-    display: block;
-    color: black;
-    font-family: 'Barlow';
-}
-
-
+    height: auto;
+    li {
+        margin-right: -1.5em;
+        margin-left: -1.5em;
+        padding: 2px 4.5em;
+        cursor: pointer;
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+      &:hover {
+        background: #dddddd;
+      }
+    }
+  }
+  .result {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    b {
+      margin-right: 0.5em;
+    }
+    span {
+      margin: 0 .5em;
+      width: 1em;
+      height: 1em;
+      border-radius: .5em;
+    }
+  }
+  @keyframes enlarge {
+    to {
+      max-height: 10em;
+    }
+  }
+  
 ::placeholder {
     font-family: Barlow;
     color: #EE0E7D;
