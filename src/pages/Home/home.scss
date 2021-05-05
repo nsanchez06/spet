@@ -172,6 +172,7 @@ body {
 
     &__textContent {
       width: 50%;
+      text-align: -webkit-center;
     }
 
     &__title {
@@ -226,16 +227,18 @@ body {
     position: relative;
     width: 655px;
     height: 120px;
-    left: 360px;
     top: 136px;
+    display: table;
+    margin: 0 auto;
    }
 
    &__contato {
     position: relative;
     width: 122px;
     height: 24px;
-    left: 605px;
     top: 180px;
+    display: table;
+    margin: 0 auto;
 
     font-family: Barlow;
     font-style: normal;
@@ -254,8 +257,9 @@ body {
     line-height: 24px;
     color: #FFFFFF;
     position: relative;
-    right: 100px;
     top: 15px;
+    display: table;
+    margin: 0 auto;
    }
 
   }
@@ -272,8 +276,9 @@ body {
         position: relative;
         width: 676px;
         height: 80px;
-        left: 332px;
         top: 180px;
+        display: table;
+        margin: 0 auto;
     
         font-family: Barlow;
         font-style: normal;
@@ -303,13 +308,48 @@ body {
         position: relative;
         width: 320px;
         height: 60px;
-        left: 500px;
+        display: table;
+        margin: 0 auto;
         top: 240px;
         background: #000000;
-        opacity: 0.1;
+        border-bottom: 1px solid #03FFA5;
 
+        ::placeholder {
+          font-family: Barlow;
+          color: #ffffff;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 60px;
+          border: none !important;
+          outline: none !important;
+          background-color: black;
+      
+        }
+
+        input {
+          border: 0;
+          outline: none;
+          background: black;
+          color: #03FFA5;
+        }
+        
       }
-  
+
+      &__button {
+        background-color: #000000;
+        font-family: Barlow;
+        text-transform: uppercase;
+        font-style: normal;
+        color: #03FFA5;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 40px;
+        width: 89px;
+        height: 40px;
+        border: 0;
+        cursor: pointer;
+      }
+      
   }
 
 } 

@@ -106,10 +106,10 @@ export const Home = () => {
                 <div className="newsletter__content">
                     <div className="newsletter__text">
                         <span className="newsletter__">//</span> 
-                        recebba novidades da nossa área de produtos digitais.
+                        receba novidades da nossa área de produtos digitais.
                     </div>
                         <div className="newsletter__email">
-                            <input type="Digite seu e-mail"></input><button>cadastrar</button>
+                            <input placeholder="Digite seu e-mail"></input><button className="newsletter__button">cadastrar</button>
                         </div>
                 </div>
             </div>
