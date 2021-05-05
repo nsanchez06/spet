@@ -22,7 +22,7 @@ export const Home = () => {
 
                 <div className="tipbar">
 
-                    <div>Nossas principais lojas VTEX <span>→</span></div>
+                    <div>Nossas principais lojas VTEX <span className="tipbar__">→</span></div>
                     <div><img src={brastemp} alt={"Brastemp"} /></div>
                     <div><img src={compraCerta} alt={"Compra Certa"} /></div>
                     <div><img src={consul} alt={"Consul"} /></div>
@@ -94,7 +94,13 @@ export const Home = () => {
                 </div>
 
                 <div className="contactContent">
-                    <img src={contactInfo} alt={"Contato Jussi"} />
+                    <div className="contactContent__text">
+                        essa loja foi contruída usando uma das nossas soluções da plataforma vtex. Tenha a sua.
+                    </div>
+                    <div className="contactContent__contato">
+                        entre em contato 
+                        <div className="contactContent__email">comercial@jussi.com.br</div>
+                    </div>
                 </div>
 
                 <div className="newsletterContent">

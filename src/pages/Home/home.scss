@@ -74,7 +74,6 @@ body {
     text-align: center;
     margin-top: 90px;
     width: 100%;
-    height: 755px;
     margin-bottom: 20px;
 
     img {
@@ -86,7 +85,10 @@ body {
   .tipbar {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 7.2rem;
+    margin-bottom: 5.2rem;
+    &__ {
+      margin-left: 40px;
+    }
   }
 
   .soluctions {
@@ -227,7 +229,7 @@ body {
   .quemSomos {
     width: 100%;
     display: flex;
-    margin: 10px 176px;
+    margin: 10px 120px;
 
     &__textContent {
       width: 50%;
@@ -270,10 +272,52 @@ body {
     text-align: center;
     margin-top: 90px;
     width: 100%;
+    height: 480px;
+    background: #EE0E7D;
 
-    img {
-      width: 100%;
-    }
+   &__text {
+    color: #FFFFFF;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center !important;
+    text-transform: uppercase;
+    position: relative;
+    width: 655px;
+    height: 120px;
+    left: 360px;
+    top: 136px;
+   }
+
+   &__contato {
+    position: relative;
+    width: 122px;
+    height: 24px;
+    left: 605px;
+    top: 180px;
+
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+   }
+
+   &__email {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: relative;
+    right: 100px;
+    top: 15px;
+   }
 
   }
 
