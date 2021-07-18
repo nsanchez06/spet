@@ -1,23 +1,22 @@
 .header {
-  @media (min-width:768px){
+  @media (min-width:769px){
     #menuToggle {
       display: none;
     }
     
   }
-    position: fixed;
-    min-height: 20%;
-    text-align: center;
-    top: 0;
-    width: 100%;
-    left: 0px;
-    height: 80px;
-    max-height: 20px;
-    background-color: #f3f3f3;
-    display: flex;
-    justify-content: space-between;
-    color: black;
-    z-index: 1;
+  position: fixed;
+  min-height: auto;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  left: 0px;
+
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  z-index: 1;
     
       &__logo {
         max-width: 195px;
@@ -233,6 +232,9 @@
 }
 
 .products {
+  h1 {
+    width: 317px;
+  }
   margin: 0 !important;
   &__productsList {
     display: block !important;
@@ -271,6 +273,12 @@
   width: 300px !important;
   font-size: 22px !important;
   margin: 0px 20px!important;
+}
+.newsletter__content {
+  min-width: 342px;
+}
+.footerContent {
+  min-width: 342px;
 }
 
 }

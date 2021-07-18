@@ -4,13 +4,14 @@ import Header from "../../components/header"
 import './home.scss';
 
 import banner from '../../assets/full-banner.png';
+import bannerMobile from '../../assets/full-banner-mobile.png';
 
 
 import freteGratis from '../../assets/frete-gratis.png';
 
-import compraCerta from '../../assets/logo-compra-certa.png';
-import consul from '../../assets/logo-consul.png';
-import theBar from '../../assets/logo-thebar.png';
+import mercadoPago from '../../assets/mercado-pago.png';
+import pix from '../../assets/pix.png';
+import boleto from '../../assets/boleto.png';
 
 // produtos
 import chaveiroDarthVader from '../../assets/chaveiro-darth-vader.jpg'
@@ -26,16 +27,19 @@ export const Home = () => {
             <Header />
             <div className="HomePage">
                 <div className="HomePage__banner">
-                    <img src={banner} alt={"banner Jussi"} />
+                    <img src={banner} alt={"banner black friday"} />
+                </div>
+                <div className="full-banner-mobile">
+                <img src={bannerMobile} alt={"banner black friday"} />
                 </div>
 
                 <div className="tipbar">
 
                     <div>benefícios para nossos nerds<span className="tipbar__">→</span></div>
                     <div><img src={freteGratis} alt={"Frete Grátis"} /></div>
-                    <div><img src={compraCerta} alt={"Compra Certa"} /></div>
-                    <div><img src={consul} alt={"Consul"} /></div>
-                    <div><img src={theBar} alt={"The Bar"} /></div>
+                    <div><img src={mercadoPago} alt={"mercado pago"} /></div>
+                    <div><img src={pix} alt={"pix"} /></div>
+                    <div><img src={boleto} alt={"boleto"} /></div>
 
                 </div>
 
