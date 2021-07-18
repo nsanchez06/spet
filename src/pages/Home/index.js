@@ -1,15 +1,24 @@
 import Footer from "../../components/footer"
+import Storege from '../../components/storege/index';
 import Header from "../../components/header"
 import './home.scss';
 
-import banner from '../../assets/hero-banner.png';
-import brastemp from '../../assets/logo-brastemp.png';
+import banner from '../../assets/full-banner.png';
+
+
+import freteGratis from '../../assets/frete-gratis.png';
+
 import compraCerta from '../../assets/logo-compra-certa.png';
 import consul from '../../assets/logo-consul.png';
 import theBar from '../../assets/logo-thebar.png';
-import jussi from '../../assets/image-jussi.png';
-import contactInfo from '../../assets/contact-info.png';
-import newsletter from '../../assets/newletter.png';
+
+// produtos
+import chaveiroDarthVader from '../../assets/chaveiro-darth-vader.jpg'
+import chaveiroMestreYoda from '../../assets/chaveiro-mestre-yoda.jpg'
+import chaveiroStormtrooper from '../../assets/chaveiro-stormtrooper.jpg'
+
+import cringe from '../../assets/cringe.gif';
+
 
 export const Home = () => {
     return (
@@ -22,56 +31,34 @@ export const Home = () => {
 
                 <div className="tipbar">
 
-                    <div>Nossas principais lojas VTEX <span className="tipbar__">→</span></div>
-                    <div><img src={brastemp} alt={"Brastemp"} /></div>
+                    <div>benefícios para nossos nerds<span className="tipbar__">→</span></div>
+                    <div><img src={freteGratis} alt={"Frete Grátis"} /></div>
                     <div><img src={compraCerta} alt={"Compra Certa"} /></div>
                     <div><img src={consul} alt={"Consul"} /></div>
                     <div><img src={theBar} alt={"The Bar"} /></div>
 
                 </div>
 
-                <div className="soluctions">
-                    <h1><span className="soluctions__details"> //</span> Nossas Soluções</h1>
-                    <div className="soluctions__productsList">
+                <div className="products">
+                    <h1><span className="products__details"> //</span> Nossos produtos</h1>
+                    <div className="products__productsList">
 
-                        <div className="soluctions__product-one">
-                            <div className="soluctions__productTitle">P1</div>
-                            <div className="soluctions__productName">Nome do Produto #1</div>
-                            <div className="soluctions__productDescription">Descrição do produto #1</div>
-                            <div className="soluctions__productFeature">• Feature 1</div>
-                            <div className="soluctions__productFeature">• Feature 2</div>
-                            <div className="soluctions__productFeature">• Feature 3</div>
-                            <div className="soluctions__productButton">Ver solução</div>
+                        <div className="products__product-one">
+                            <div className="products__productTitle"><img src={chaveiroDarthVader} alt={"chaveiro darth vader"} /></div>
+                            <div className="products__productName">Chaveiro Darth Vader</div>
+                            <div className="products__productButton">comprar</div>
                         </div>
 
-                        <div className="soluctions__product-two">
-                            <div className="soluctions__productTitle">P2</div>
-                            <div className="soluctions__productName">Nome do Produto #2</div>
-                            <div className="soluctions__productDescription">Descrição do produto #2</div>
-                            <div className="soluctions__productFeature">• Feature 1</div>
-                            <div className="soluctions__productFeature">• Feature 2</div>
-                            <div className="soluctions__productFeature">• Feature 3</div>
-                            <div className="soluctions__productButton">Ver solução</div>
+                        <div className="products__product-two">
+                            <div className="products__productTitle"><img src={chaveiroMestreYoda} alt={"chaveiro mestre yoda"} /></div>
+                            <div className="products__productName">Chaveiro Mestre Yoda</div>
+                            <div className="products__productButton">comprar</div>
                         </div>
 
-                        <div className="soluctions__product-three">
-                            <div className="soluctions__productTitle">P3</div>
-                            <div className="soluctions__productName">Nome do Produto #3</div>
-                            <div className="soluctions__productDescription">Descrição do produto #3</div>
-                            <div className="soluctions__productFeature">• Feature 1</div>
-                            <div className="soluctions__productFeature">• Feature 2</div>
-                            <div className="soluctions__productFeature">• Feature 3</div>
-                            <div className="soluctions__productButton">Ver solução</div>
-                        </div>
-
-                        <div className="soluctions__product-four">
-                            <div className="soluctions__productTitle">P4</div>
-                            <div className="soluctions__productName">Nome do Produto #4</div>
-                            <div className="soluctions__productDescription">Descrição do produto #4</div>
-                            <div className="soluctions__productFeature">• Feature 1</div>
-                            <div className="soluctions__productFeature">• Feature 2</div>
-                            <div className="soluctions__productFeature">• Feature 3</div>
-                            <div className="soluctions__productButton">Ver solução</div>
+                        <div className="products__product-three">
+                            <div className="products__productTitle"><img src={chaveiroStormtrooper} alt={"chaveiro stormtrooper"} /></div>
+                            <div className="products__productName">Chaveiro Strormtrooper</div>
+                            <div className="products__productButton">comprar</div>
                         </div>
 
                     </div>
@@ -81,39 +68,28 @@ export const Home = () => {
                 <div className="quemSomos">
 
                     <div className="quemSomos__textContent">
-                        <div className="quemSomos__title"> Olá, somos a Jüssi</div>
+                        <div className="quemSomos__title"> Olá, somos a Nerdice Gringe</div>
                         <div className="quemSomos__text">
-                            A Jüssi é uma agência integrante do grupo global WPP que vem há 10 anos consolidando o pensamento voltado para produtos e resolução de problemas. Nosso área dedicada exclusivamente para Produtos Digitais é organizada em 6 especialidades: Product Managamenet, User Experience Design, SEO, Tecnologia, Agile e User Behavior Analytics.
+                            A Nerdice Cringe surgiu, como o nome já diz, para nossos nerds cringes! Aqui você encontra todos os produtos nerds da geração millennial.
             </div>
                     </div>
 
                     <div className="quemSomos__imagem">
-                        <img src={jussi} alt={"Jussi"} />
+                        <img src={cringe} alt={"cringe"} />
                     </div>
 
-                </div>
-
-                <div className="contactContent">
-                    <div className="contactContent__text">
-                        essa loja foi contruída usando uma das nossas soluções da plataforma vtex. Tenha a sua.
-                    </div>
-                    <div className="contactContent__contato">
-                        entre em contato 
-                        <div className="contactContent__email">comercial@jussi.com.br</div>
-                    </div>
                 </div>
 
                 <div className="newsletter__content">
                     <div className="newsletter__text">
                         <span className="newsletter__">//</span> 
-                        receba novidades da nossa área de produtos digitais.
+                        receba novidades das nossas nerdices.
                     </div>
                         <div className="newsletter__email">
-                            <input placeholder="Digite seu e-mail"></input><button className="newsletter__button">cadastrar</button>
+                            <Storege />
                         </div>
                 </div>
             </div>
-
 
             <Footer />
         </>

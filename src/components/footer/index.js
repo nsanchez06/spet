@@ -4,14 +4,14 @@ import { FooterWrapper } from './styles.js';
 
 //  START - imagens
 
-import footer from '../../assets/footer.png';
+// import footer from '../../assets/footer.png';
 //  END - imagens
 
 function Footer() {
   return (
     <FooterWrapper>
       <div className="footerContent">
-        <img src={footer} alt={"Footer"} />
+        desenvolvido por Natália Sanchez
       </div>
     </FooterWrapper>
 

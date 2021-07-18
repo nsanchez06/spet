@@ -13,7 +13,7 @@ body {
     text-align: center;
     margin-top: 90px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 5.2rem;
 
     img {
       width: 100%;
@@ -25,13 +25,22 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 5.2rem;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    img{
+      width: 200px;
+    }
     &__ {
       margin-left: 40px;
     }
   }
 
-  .soluctions {
+  .products {
     margin: 10px 176px;
+    img {
+      max-width: 150px;
+    }
 
     h1 {
       margin-bottom: 81px;
@@ -49,7 +58,7 @@ body {
       font-family: Barlow;
       font-weight: bold;
       font-size: 32px;
-      color: #03FFA5;
+      color: yellow;
       line-height: 40px;
     }
 
@@ -91,28 +100,6 @@ body {
       box-sizing: border-box;
     }
 
-    &__product-four {
-      height: 381px;
-      width: 241px;
-      left: 0px;
-      top: 0px;
-      border-radius: 4px;
-      background: #FFFFFF;
-      border: 1px solid #F2F2F2;
-      box-sizing: border-box;
-    }
-
-    &__productTitle {
-      font-family: Barlow;
-      font-size: 32px;
-      font-weight: 500;
-      line-height: 38px;
-      text-transform: uppercase;
-      margin-bottom: 60px;
-      text-align: start;
-      margin-left: 15px;
-    }
-
     &__productName {
       font-family: Barlow;
       font-size: 16px;
@@ -120,7 +107,8 @@ body {
       line-height: 24px;
       color: #000000;
       margin-bottom: 20px;
-      text-align: start;
+      text-align: center;
+      text-transform: uppercase;
 
     }
 
@@ -151,13 +139,13 @@ body {
       text-align: center;
       margin-top: 17px;
       padding: 10px 0px 10px 0px;
-      background: #03FFA5;
+      background: yellow;
       border-radius: 6px;
 
       color: #000000;
       font-family: Barlow;
       font-style: normal;
-      font-weight: 500;
+      font-weight: 800;
       font-size: 16px;
       line-height: 24px;
       cursor: pointer;
@@ -184,7 +172,7 @@ body {
       line-height: 40px;
       text-transform: uppercase;
       color: #000000;
-      margin-bottom: 24px;
+      margin-bottom: 50px;
     }
 
     &__text {
@@ -204,63 +192,6 @@ body {
       width: 50%;
       margin: 0px 200px;
     }
-
-  }
-
-  .contactContent {
-    padding: 0;
-    text-align: center;
-    margin-top: 90px;
-    width: 100%;
-    height: 480px;
-    background: #EE0E7D;
-
-   &__text {
-    color: #FFFFFF;
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 40px;
-    text-align: center !important;
-    text-transform: uppercase;
-    position: relative;
-    width: 655px;
-    height: 120px;
-    top: 136px;
-    display: table;
-    margin: 0 auto;
-   }
-
-   &__contato {
-    position: relative;
-    width: 122px;
-    height: 24px;
-    top: 180px;
-    display: table;
-    margin: 0 auto;
-
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #FFFFFF;
-   }
-
-   &__email {
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 24px;
-    color: #FFFFFF;
-    position: relative;
-    top: 15px;
-    display: table;
-    margin: 0 auto;
-   }
 
   }
 
@@ -301,7 +232,7 @@ body {
         font-weight: bold;
         font-size: 32px;
         line-height: 24px;
-        color: #03FFA5;
+        color: yellow;
       }
 
       &__email {
@@ -312,7 +243,7 @@ body {
         margin: 0 auto;
         top: 240px;
         background: #000000;
-        border-bottom: 1px solid #03FFA5;
+        border-bottom: 1px solid yellow;
 
         ::placeholder {
           font-family: Barlow;
@@ -330,7 +261,7 @@ body {
           border: 0;
           outline: none;
           background: black;
-          color: #03FFA5;
+          color: yellow;
         }
         
       }
@@ -340,7 +271,7 @@ body {
         font-family: Barlow;
         text-transform: uppercase;
         font-style: normal;
-        color: #03FFA5;
+        color: yellow;
         font-weight: bold;
         font-size: 16px;
         line-height: 40px;

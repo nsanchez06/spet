@@ -14,19 +14,24 @@
     z-index: 1;
     
       &__logo {
-        max-width: 30%;
+        max-width: 195px;
+        height: auto;
+        text-transform: uppercase;
+        color: yellow;
+        text-align: center;
+        margin: 8px;
+        font-size: -webkit-xxx-large;
+        font-family: monospace;
         cursor: pointer;
-        img {
-          margin: 20px;
-        }
-  
       }
       &__informations {
         display: flex;
         width: 30%;
+        font-size: 15px;
         align-items: center;
         justify-content: space-around;
         cursor: pointer;
+        text-transform: uppercase;
       }
 
       &__search-container {
