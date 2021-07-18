@@ -39,7 +39,7 @@ export const Home = () => {
 
                 </div>
 
-                <div className="products">
+                <div className="products" id="produtos">
                     <h1><span className="products__details"> //</span> Nossos produtos</h1>
                     <div className="products__productsList">
 
@@ -65,7 +65,7 @@ export const Home = () => {
 
                 </div>
 
-                <div className="quemSomos">
+                <div className="quemSomos" id="quem-somos">
 
                     <div className="quemSomos__textContent">
                         <div className="quemSomos__title"> Olá, somos a Nerdice Gringe</div>
@@ -80,7 +80,7 @@ export const Home = () => {
 
                 </div>
 
-                <div className="newsletter__content">
+                <div className="newsletter__content" id="newsletter">
                     <div className="newsletter__text">
                         <span className="newsletter__">//</span> 
                         receba novidades das nossas nerdices.

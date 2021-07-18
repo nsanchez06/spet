@@ -41,7 +41,7 @@ import React from "react";
             display: 'flex',
             textAlign: 'center',
             flexDirection: 'column',
-            minWidth: '300px',
+            minWidth: '275px',
             boxShadow: 'rgba(0, 0, 0, 0.1) 0px 0px 20px',
             background: 'rgb(255, 255, 255)',
             borderRadius: '4px',
