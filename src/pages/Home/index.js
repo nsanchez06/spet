@@ -3,7 +3,7 @@ import Storege from '../../components/storege/index';
 import Header from "../../components/header"
 import './home.scss';
 
-import banner from '../../assets/full-banner.png';
+import banner from '../../assets/full-banner.jpg';
 import bannerMobile from '../../assets/full-banner-mobile.png';
 
 
@@ -12,6 +12,7 @@ import freteGratis from '../../assets/frete-gratis.png';
 import mercadoPago from '../../assets/mercado-pago.png';
 import pix from '../../assets/pix.png';
 import boleto from '../../assets/boleto.png';
+import iconDog from '../../assets/icon-dog.png'
 
 // produtos
 import chaveiroDarthVader from '../../assets/chaveiro-darth-vader.jpg'
@@ -27,7 +28,7 @@ export const Home = () => {
             <Header />
             <div className="HomePage">
                 <div className="HomePage__banner">
-                    <img src={banner} alt={"banner black friday"} />
+                    <img src={banner} alt={"banner SPet"} />
                 </div>
                 <div className="full-banner-mobile">
                 <img src={bannerMobile} alt={"banner black friday"} />
@@ -35,7 +36,7 @@ export const Home = () => {
 
                 <div className="tipbar">
 
-                    <div>benefícios para nossos nerds<span className="tipbar__">→</span></div>
+                    <div>quem somos<span className="tipbar__">→</span></div>
                     <div><img src={freteGratis} alt={"Frete Grátis"} /></div>
                     <div><img src={mercadoPago} alt={"mercado pago"} /></div>
                     <div><img src={pix} alt={"pix"} /></div>
@@ -44,7 +45,7 @@ export const Home = () => {
                 </div>
 
                 <div className="products" id="produtos">
-                    <h1><span className="products__details"> //</span> Nossos produtos</h1>
+                    <h1><span className="products__details"><img src={iconDog} alt={"icon-dog"} /></span> Quem somos</h1>
                     <div className="products__productsList">
 
                         <div className="products__product-one">

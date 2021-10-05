@@ -12,26 +12,22 @@
   width: 100%;
   left: 0px;
 
-  background-color: #f3f3f3;
+  background-color: #ffff;
   display: flex;
   justify-content: space-between;
   color: black;
   z-index: 1;
     
       &__logo {
-        max-width: 195px;
-        height: auto;
-        text-transform: uppercase;
-        color: yellow;
-        text-align: center;
-        margin: 8px;
-        font-size: -webkit-xxx-large;
-        font-family: monospace;
+        margin: 5px 50px;
         cursor: pointer;
+        img {
+          width: 140px;
+        }
       }
       &__informations {
         display: flex;
-        width: 30%;
+        width: 100%;
         font-size: 15px;
         align-items: center;
         justify-content: space-around;
@@ -40,7 +36,7 @@
       }
 
       &__search-container {
-        display: flex;
+        display: none;
         width: 30%;
         align-items: center;
         justify-content: space-around;
@@ -56,7 +52,7 @@
       }
 
       &__login-cart {
-        display: flex;
+        display: none;
         width: 30%;
         align-items: center;
         justify-content: space-evenly;

@@ -3,6 +3,7 @@ import React from 'react'
 import './header.scss';
 
 //  START - imagens
+import logo from '../../assets/logo.png';
 import carrinho from '../../assets/carrinho.png';
 import Search from '../search';
 import MenuMobile from '../menu-mobile/index';
@@ -15,13 +16,13 @@ function Header() {
 
     <header className="header">
       <MenuMobile />
-      <div className="header__logo">Nerdice Cringe</div>
+      <div className="header__logo"><img src={logo} alt={"logo-Spet"}  /></div>
 
       <div className="header__informations">
-        <span>home</span>
-        <span>nossos produtos</span>
-        <span>sobre nós</span>
-        <span>contato</span>
+        <span>quem somos</span>
+        <span>nossos servicos</span>
+        <span>equipe veterinaria</span>
+        <span>fale conosco</span>
       </div>
 
       <div className="header__login-cart">

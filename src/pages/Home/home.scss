@@ -11,7 +11,7 @@ body {
   &__banner {
     padding: 0;
     text-align: center;
-    margin-top: 90px;
+    margin-top: 160px;
     width: 100%;
     margin-bottom: 5.2rem;
     @media (max-width: 768px) {
@@ -36,7 +36,7 @@ body {
   }
 
   .tipbar {
-    display: flex;
+    display: none;
     justify-content: space-evenly;
     margin-bottom: 5.2rem;
     text-align: center;
@@ -72,7 +72,7 @@ body {
       font-family: Barlow;
       font-weight: bold;
       font-size: 32px;
-      color: yellow;
+      color: hsl(202deg, 100%, 61%);
       line-height: 40px;
     }
 
