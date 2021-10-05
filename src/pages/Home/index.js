@@ -49,9 +49,14 @@ export const Home = () => {
                     <div className="products__productsList">
 
                         <div className="products__product-one">
-                            <div className="products__productTitle"><img src={chaveiroDarthVader} alt={"chaveiro darth vader"} /></div>
-                            <div className="products__productName">Chaveiro Darth Vader</div>
-                            <div className="products__productButton">comprar</div>
+                            <p>Lorem ipsum dolor sit amet. Eos quasi voluptatem et libero aperiam rem numquam 
+                                galisum ut porro voluptatem. Ad corrupti iste ut itaque nisi ex assumenda tenetur est
+                                 molestias quae sit distinctio fugiat in quod officia. Ut eaque omnis ad velit quia a omnis
+                                  aliquid qui repudiandae repudiandae est magni commodi in nihil neque ex magni voluptas.
+                                Et inventore dicta aut veniam sequi sit accusantium beatae qui enim tenetur. Et beatae accusamus
+                                 et obcaecati nostrum et consequatur dignissimos sit corporis sint et reprehenderit blanditiis aut 
+                                 ratione laboriosam eum ratione sapiente. Est minus eaque At consequatur reprehenderit est ipsum quidem 
+                                 non nihil perferendis.</p>
                         </div>
 
                         <div className="products__product-two">

@@ -82,14 +82,9 @@ body {
     }
 
     &__product-one {
-      height: 381px;
-      width: 241px;
-      left: 0px;
-      top: 0px;
-      border-radius: 4px;
-      background: #FFFFFF;
-      border: 1px solid #F2F2F2;
-      box-sizing: border-box;
+      height: auto;
+      width: 427px;
+      text-align: justify;
     }
 
     &__product-two {
