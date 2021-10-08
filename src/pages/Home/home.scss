@@ -2,6 +2,8 @@
 
 body {
   overflow-x: hidden;
+  cursor: url("../../assets/cursor.png"), auto;
+
 }
 
 .HomePage {
@@ -53,7 +55,8 @@ body {
   .products {
     margin: 10px 176px;
     img {
-      max-width: 150px;
+      max-width: 100%;
+      height: auto;
     }
 
     h1 {
@@ -74,6 +77,10 @@ body {
       font-size: 32px;
       color: hsl(202deg, 100%, 61%);
       line-height: 40px;
+      img{
+        width: 40%;
+
+      }
     }
 
     &__productsList {
@@ -89,23 +96,21 @@ body {
 
     &__product-two {
       height: 381px;
-      width: 241px;
+      width: 300px;
       left: 0px;
       top: 0px;
       border-radius: 4px;
-      background: #FFFFFF;
-      border: 1px solid #F2F2F2;
+      background: hsl(0deg 0% 100%);
       box-sizing: border-box;
     }
 
     &__product-three {
       height: 381px;
-      width: 241px;
+      width: 300px;
       left: 0px;
       top: 0px;
       border-radius: 4px;
-      background: #FFFFFF;
-      border: 1px solid #F2F2F2;
+      background: hsl(0deg 0% 100%);
       box-sizing: border-box;
     }
 
@@ -148,16 +153,13 @@ body {
       text-align: center;
       margin-top: 17px;
       padding: 10px 0px 10px 0px;
-      background: yellow;
       border-radius: 6px;
-
-      color: #000000;
+      color: hsl(0deg 0% 0%);
       font-family: Barlow;
       font-style: normal;
-      font-weight: 800;
       font-size: 16px;
+      text-align: justify;
       line-height: 24px;
-      cursor: pointer;
 
     }
   }

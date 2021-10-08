@@ -4,6 +4,7 @@ import Header from "../../components/header"
 import './home.scss';
 
 import banner from '../../assets/full-banner.jpg';
+
 import bannerMobile from '../../assets/full-banner-mobile.png';
 
 
@@ -15,11 +16,9 @@ import boleto from '../../assets/boleto.png';
 import iconDog from '../../assets/icon-dog.png'
 
 // produtos
-import chaveiroDarthVader from '../../assets/chaveiro-darth-vader.jpg'
-import chaveiroMestreYoda from '../../assets/chaveiro-mestre-yoda.jpg'
-import chaveiroStormtrooper from '../../assets/chaveiro-stormtrooper.jpg'
+import kellyPandolfi from '../../assets/kelly-pandolfi.jpg'
+import imgQuemSomos from '../../assets/img-quem-somos.jpg'
 
-import cringe from '../../assets/cringe.gif';
 
 
 export const Home = () => {
@@ -48,27 +47,24 @@ export const Home = () => {
                     <h1><span className="products__details"><img src={iconDog} alt={"icon-dog"} /></span> Quem somos</h1>
                     <div className="products__productsList">
 
-                        <div className="products__product-one">
-                            <p>Lorem ipsum dolor sit amet. Eos quasi voluptatem et libero aperiam rem numquam 
-                                galisum ut porro voluptatem. Ad corrupti iste ut itaque nisi ex assumenda tenetur est
-                                 molestias quae sit distinctio fugiat in quod officia. Ut eaque omnis ad velit quia a omnis
-                                  aliquid qui repudiandae repudiandae est magni commodi in nihil neque ex magni voluptas.
-                                Et inventore dicta aut veniam sequi sit accusantium beatae qui enim tenetur. Et beatae accusamus
-                                 et obcaecati nostrum et consequatur dignissimos sit corporis sint et reprehenderit blanditiis aut 
-                                 ratione laboriosam eum ratione sapiente. Est minus eaque At consequatur reprehenderit est ipsum quidem 
-                                 non nihil perferendis.</p>
-                        </div>
+                        
 
                         <div className="products__product-two">
-                            <div className="products__productTitle"><img src={chaveiroMestreYoda} alt={"chaveiro mestre yoda"} /></div>
-                            <div className="products__productName">Chaveiro Mestre Yoda</div>
-                            <div className="products__productButton">comprar</div>
+                            <div className="products__productTitle"><img src={kellyPandolfi} alt={"Dra Kelly Pandolfi"} /></div>
+                            <div className="products__productName">Dra Kelly Pandolfi</div>
+                            <div className="products__productButton">Lorem ipsum dolor sit amet.
+                             Et minima voluptas id galisum nulla est dicta veritatis qui aspernatur libero est rerum voluptas 
+                               voluptas ad voluptate vero sed architecto assumenda aut debitis dolores aut dolorem ratione? Omnis 
+                               ipsa et culpa omnis aut vero consequatur ad praesentium ipsa.</div>
                         </div>
 
                         <div className="products__product-three">
-                            <div className="products__productTitle"><img src={chaveiroStormtrooper} alt={"chaveiro stormtrooper"} /></div>
-                            <div className="products__productName">Chaveiro Strormtrooper</div>
-                            <div className="products__productButton">comprar</div>
+                            <div className="products__productTitle"><img src={imgQuemSomos} alt={"imgQuemSomos"} /></div>
+                            <div className="products__productName">Lorem ipsum dolor sit amet</div>
+                            <div className="products__productButton">Lorem ipsum dolor sit amet.
+                             Et minima voluptas id galisum nulla est dicta veritatis qui aspernatur libero est rerum voluptas 
+                               voluptas ad voluptate vero sed architecto assumenda aut debitis dolores aut dolorem ratione? Omnis 
+                               ipsa et culpa omnis aut vero consequatur ad praesentium ipsa.</div>
                         </div>
 
                     </div>
@@ -84,9 +80,7 @@ export const Home = () => {
             </div>
                     </div>
 
-                    <div className="quemSomos__imagem">
-                        <img src={cringe} alt={"cringe"} />
-                    </div>
+                   
 
                 </div>
 
