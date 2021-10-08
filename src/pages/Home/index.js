@@ -44,25 +44,25 @@ export const Home = () => {
 
                 </div>
 
-                <div className="products" id="produtos">
-                    <h1><span className="products__details"><img src={iconDog} alt={"icon-dog"} /></span> Quem somos</h1>
-                    <div className="products__productsList">
+                <div className="quemSomos" id="quemSomos">
+                    <h1><span className="quemSomos__details"><img src={iconDog} alt={"icon-dog"} /></span> Quem somos</h1>
+                    <div className="quemSomos__List">
 
                         
 
-                        <div className="products__product-two">
-                            <div className="products__productTitle"><img src={kellyPandolfi} alt={"Dra Kelly Pandolfi"} /></div>
-                            <div className="products__productName">Dra Kelly Pandolfi</div>
-                            <div className="products__productButton">Lorem ipsum dolor sit amet.
+                        <div className="quemSomos__draKelly">
+                            <div><img src={kellyPandolfi} alt={"Dra Kelly Pandolfi"} /></div>
+                            <div className="quemSomos__Name">Dra Kelly Pandolfi</div>
+                            <div className="quemSomos__description">Lorem ipsum dolor sit amet.
                              Et minima voluptas id galisum nulla est dicta veritatis qui aspernatur libero est rerum voluptas 
                                voluptas ad voluptate vero sed architecto assumenda aut debitis dolores aut dolorem ratione? Omnis 
                                ipsa et culpa omnis aut vero consequatur ad praesentium ipsa.</div>
                         </div>
 
-                        <div className="products__product-three">
-                            <div className="products__productTitle"><img src={imgQuemSomos} alt={"imgQuemSomos"} /></div>
-                            <div className="products__productName">Lorem ipsum dolor sit amet</div>
-                            <div className="products__productButton">Lorem ipsum dolor sit amet.
+                        <div className="quemSomos__draTwo">
+                            <div><img src={imgQuemSomos} alt={"imgQuemSomos"} /></div>
+                            <div className="quemSomos__Name">Lorem ipsum dolor sit amet</div>
+                            <div className="quemSomos__description">Lorem ipsum dolor sit amet.
                              Et minima voluptas id galisum nulla est dicta veritatis qui aspernatur libero est rerum voluptas 
                                voluptas ad voluptate vero sed architecto assumenda aut debitis dolores aut dolorem ratione? Omnis 
                                ipsa et culpa omnis aut vero consequatur ad praesentium ipsa.</div>
@@ -72,25 +72,25 @@ export const Home = () => {
 
                 </div>
 
-                <div className="products" id="produtos">
-                    <h1><span className="products__details"><img src={iconCat} alt={"icon-cat"} /></span> Nossos serviços</h1>
-                    <div className="products__productsList">
+                <div className="nossosServicos" id="nossosServicos">
+                    <h1><span className="nossosServicos__details"><img src={iconCat} alt={"icon-cat"} /></span> nossos serviços</h1>
+                    <div className="nossosServicos__List">
 
                         
 
-                        <div className="products__product-two">
-                            <div className="products__productTitle"><img src={kellyPandolfi} alt={"Dra Kelly Pandolfi"} /></div>
-                            <div className="products__productName">Dra Kelly Pandolfi</div>
-                            <div className="products__productButton">Lorem ipsum dolor sit amet.
+                        <div className="nossosServicos__draKelly">
+                            <div><img src={kellyPandolfi} alt={"Dra Kelly Pandolfi"} /></div>
+                            <div className="nossosServicos__Name">Dra Kelly Pandolfi</div>
+                            <div className="nossosServicos__description">Lorem ipsum dolor sit amet.
                              Et minima voluptas id galisum nulla est dicta veritatis qui aspernatur libero est rerum voluptas 
                                voluptas ad voluptate vero sed architecto assumenda aut debitis dolores aut dolorem ratione? Omnis 
                                ipsa et culpa omnis aut vero consequatur ad praesentium ipsa.</div>
                         </div>
 
-                        <div className="products__product-three">
-                            <div className="products__productTitle"><img src={imgQuemSomos} alt={"imgQuemSomos"} /></div>
-                            <div className="products__productName">Lorem ipsum dolor sit amet</div>
-                            <div className="products__productButton">Lorem ipsum dolor sit amet.
+                        <div className="nossosServicos__draTwo">
+                            <div><img src={imgQuemSomos} alt={"imgQuemSomos"} /></div>
+                            <div className="nossosServicos__Name">Lorem ipsum dolor sit amet</div>
+                            <div className="nossosServicos__description">Lorem ipsum dolor sit amet.
                              Et minima voluptas id galisum nulla est dicta veritatis qui aspernatur libero est rerum voluptas 
                                voluptas ad voluptate vero sed architecto assumenda aut debitis dolores aut dolorem ratione? Omnis 
                                ipsa et culpa omnis aut vero consequatur ad praesentium ipsa.</div>
@@ -106,7 +106,7 @@ export const Home = () => {
                         <div className="quemSomos__title"> Olá, somos a Nerdice Gringe</div>
                         <div className="quemSomos__text">
                             A Nerdice Cringe surgiu, como o nome já diz, para nossos nerds cringes! Aqui você encontra todos os produtos nerds da geração millennial.
-            </div>
+                         </div>
                     </div>
 
                    

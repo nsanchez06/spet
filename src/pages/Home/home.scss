@@ -50,7 +50,7 @@ body {
     }
   }
 
-  .products {
+  .quemSomos {
     margin: 10px 45px;
     margin-bottom: 349px;
     img{
@@ -93,18 +93,12 @@ body {
       }
     }
 
-    &__productsList {
+    &__List {
       display: flex;
       justify-content: space-evenly;
     }
 
-    &__product-one {
-      height: auto;
-      width: 427px;
-      text-align: justify;
-    }
-
-    &__product-two {
+    &__draKelly {
       height: 381px;
       width: 300px;
       left: 0px;
@@ -114,7 +108,7 @@ body {
       box-sizing: border-box;
     }
 
-    &__product-three {
+    &__draTwo {
       height: 381px;
       width: 300px;
       left: 0px;
@@ -124,7 +118,7 @@ body {
       box-sizing: border-box;
     }
 
-    &__productName {
+    &__Name {
       font-family: Barlow;
       font-size: 16px;
       font-weight: 600;
@@ -136,30 +130,7 @@ body {
 
     }
 
-    &__productDescription {
-      font-family: Barlow;
-      font-weight: 500;
-      font-size: 12px;
-      line-height: 18px;
-      color: #EE0E7D;
-      margin-bottom: 20px;
-      text-align: start;
-    }
-
-    &__productFeature {
-      font-family: Barlow;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 12px;
-      line-height: 18px;
-      color: #5B5B5B;
-      margin-bottom: 2px;
-      text-align: start;
-
-
-    }
-
-    &__productButton {
+    &__description {
       text-align: center;
       margin-top: 17px;
       padding: 10px 0px 10px 0px;
@@ -174,46 +145,99 @@ body {
     }
   }
 
-  .quemSomos {
-    width: 100%;
-    display: none;
-    margin: 10px 120px;
+  .nossosServicos {
+    margin: 10px 45px;
+    margin-bottom: 349px;
+    img{
+      max-width: 115%;
+      height: auto;
+      margin-bottom: 57px;
 
-    &__textContent {
-      width: 50%;
-      text-align: -webkit-center;
+    }
+    img:hover {
+      -webkit-transform:scale(1.2);
+      transform:scale(1.2);
+      -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      transform: scale(1.3);
+      cursor: pointer;
     }
 
-    &__title {
-      width: 185px;
-      height: 80px;
+    h1 {
+    margin-bottom: 0px;
+    text-align: end;
+    font-family: Barlow;
+    font-weight: bold;
+    display: flex;
+    font-size: 32px;
+    line-height: 105px;
+    width: 462px;
+    text-transform: uppercase;
+
+    }
+
+    &__details {
       font-family: Barlow;
       font-weight: bold;
       font-size: 32px;
+      color: hsl(202deg, 100%, 61%);
       line-height: 40px;
-      text-transform: uppercase;
-      color: #000000;
-      margin-bottom: 50px;
+      img{
+        width: 40%;
+
+      }
     }
 
-    &__text {
-      position: static;
-      width: 241px;
-      height: 292px;
-      top: 104px;
+    &__List {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    &__draKelly {
+      height: 381px;
+      width: 300px;
+      left: 0px;
+      top: 0px;
+      border-radius: 4px;
+      background: hsl(0deg 0% 100%);
+      box-sizing: border-box;
+    }
+
+    &__draTwo {
+      height: 381px;
+      width: 300px;
+      left: 0px;
+      top: 0px;
+      border-radius: 4px;
+      background: hsl(0deg 0% 100%);
+      box-sizing: border-box;
+    }
+
+    &__Name {
       font-family: Barlow;
-      font-weight: 500;
       font-size: 16px;
+      font-weight: 600;
       line-height: 24px;
       color: #000000;
+      margin-bottom: 20px;
+      text-align: center;
+      text-transform: uppercase;
 
     }
 
-    &__imagem {
-      width: 50%;
-      margin: 0px 200px;
-    }
+    &__description {
+      text-align: center;
+      margin-top: 17px;
+      padding: 10px 0px 10px 0px;
+      border-radius: 6px;
+      color: hsl(0deg 0% 0%);
+      font-family: Barlow;
+      font-style: normal;
+      font-size: 16px;
+      text-align: justify;
+      line-height: 24px;
 
+    }
   }
 
   .newsletter {
