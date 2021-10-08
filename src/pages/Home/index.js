@@ -73,34 +73,34 @@ export const Home = () => {
                 </div>
 
                 <div className="nossosServicos" id="nossosServicos">
-                    <h1><span className="nossosServicos__details"><img src={iconCat} alt={"icon-cat"} /></span> nossos serviços</h1>
+                    <h1><span className="nossosServicos__details"><img src={iconCat} alt={"icon-cat"} />nossos serviços</span></h1>
                     <div className="nossosServicos__List">
 
                         
 
-                        <div className="nossosServicos__draKelly">
+                        {/* <div className="nossosServicos__draKelly">
                             <div><img src={kellyPandolfi} alt={"Dra Kelly Pandolfi"} /></div>
                             <div className="nossosServicos__Name">Dra Kelly Pandolfi</div>
                             <div className="nossosServicos__description">Lorem ipsum dolor sit amet.
                              Et minima voluptas id galisum nulla est dicta veritatis qui aspernatur libero est rerum voluptas 
                                voluptas ad voluptate vero sed architecto assumenda aut debitis dolores aut dolorem ratione? Omnis 
                                ipsa et culpa omnis aut vero consequatur ad praesentium ipsa.</div>
-                        </div>
+                        </div> */}
 
-                        <div className="nossosServicos__draTwo">
+                        {/* <div className="nossosServicos__draTwo">
                             <div><img src={imgQuemSomos} alt={"imgQuemSomos"} /></div>
                             <div className="nossosServicos__Name">Lorem ipsum dolor sit amet</div>
                             <div className="nossosServicos__description">Lorem ipsum dolor sit amet.
                              Et minima voluptas id galisum nulla est dicta veritatis qui aspernatur libero est rerum voluptas 
                                voluptas ad voluptate vero sed architecto assumenda aut debitis dolores aut dolorem ratione? Omnis 
                                ipsa et culpa omnis aut vero consequatur ad praesentium ipsa.</div>
-                        </div>
+                        </div> */}
 
                     </div>
 
                 </div>
 
-                <div className="quemSomos" id="quem-somos">
+                {/* <div className="quemSomos" id="quem-somos">
 
                     <div className="quemSomos__textContent">
                         <div className="quemSomos__title"> Olá, somos a Nerdice Gringe</div>
@@ -111,7 +111,7 @@ export const Home = () => {
 
                    
 
-                </div>
+                </div> */}
 
                 <div className="newsletter__content" id="newsletter">
                     <div className="newsletter__text">

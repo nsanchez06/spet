@@ -57,6 +57,7 @@ body {
       max-width: 115%;
       height: auto;
       margin-bottom: 57px;
+      border-radius: 50%;
 
     }
     img:hover {
@@ -151,7 +152,6 @@ body {
     img{
       max-width: 115%;
       height: auto;
-      margin-bottom: 57px;
 
     }
     img:hover {
@@ -164,26 +164,23 @@ body {
     }
 
     h1 {
-    margin-bottom: 0px;
-    text-align: end;
-    font-family: Barlow;
-    font-weight: bold;
-    display: flex;
-    font-size: 32px;
-    line-height: 105px;
-    width: 462px;
-    text-transform: uppercase;
+      margin-bottom: 0px;
+      text-align: end;
+      font-family: Barlow;
+      font-weight: bold;
+      display: flex;
+      font-size: 32px;
+      line-height: 105px;
+      width: 616px;
+      text-transform: uppercase;
 
     }
 
     &__details {
-      font-family: Barlow;
-      font-weight: bold;
-      font-size: 32px;
-      color: hsl(202deg, 100%, 61%);
-      line-height: 40px;
+      display: block;
       img{
-        width: 40%;
+        width: 25%;
+        padding: 5px 30px 0px 32px;
 
       }
     }
