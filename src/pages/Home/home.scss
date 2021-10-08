@@ -2,8 +2,6 @@
 
 body {
   overflow-x: hidden;
-  cursor: url("../../assets/cursor.png"), auto;
-
 }
 
 .HomePage {
@@ -53,21 +51,33 @@ body {
   }
 
   .products {
-    margin: 10px 176px;
-    img {
-      max-width: 100%;
+    margin: 10px 45px;
+    margin-bottom: 349px;
+    img{
+      max-width: 115%;
       height: auto;
+      margin-bottom: 57px;
+
+    }
+    img:hover {
+      -webkit-transform:scale(1.2);
+      transform:scale(1.2);
+      -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      transform: scale(1.3);
+      cursor: pointer;
     }
 
     h1 {
-      margin-bottom: 81px;
-      text-align: left;
-      font-family: Barlow;
-      font-weight: bold;
-      font-size: 32px;
-      line-height: 40px;
-      width: 395px;
-      text-transform: uppercase;
+    margin-bottom: 0px;
+    text-align: end;
+    font-family: Barlow;
+    font-weight: bold;
+    display: flex;
+    font-size: 32px;
+    line-height: 105px;
+    width: 462px;
+    text-transform: uppercase;
 
     }
 
@@ -166,7 +176,7 @@ body {
 
   .quemSomos {
     width: 100%;
-    display: flex;
+    display: none;
     margin: 10px 120px;
 
     &__textContent {
@@ -208,6 +218,7 @@ body {
 
   .newsletter {
     &__content {
+      display: none;
       padding: 0;
       text-align: center;
       width: 100%;

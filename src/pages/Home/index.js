@@ -14,6 +14,7 @@ import mercadoPago from '../../assets/mercado-pago.png';
 import pix from '../../assets/pix.png';
 import boleto from '../../assets/boleto.png';
 import iconDog from '../../assets/icon-dog.png'
+import iconCat from '../../assets/icon-cat.png'
 
 // produtos
 import kellyPandolfi from '../../assets/kelly-pandolfi.jpg'
@@ -45,6 +46,34 @@ export const Home = () => {
 
                 <div className="products" id="produtos">
                     <h1><span className="products__details"><img src={iconDog} alt={"icon-dog"} /></span> Quem somos</h1>
+                    <div className="products__productsList">
+
+                        
+
+                        <div className="products__product-two">
+                            <div className="products__productTitle"><img src={kellyPandolfi} alt={"Dra Kelly Pandolfi"} /></div>
+                            <div className="products__productName">Dra Kelly Pandolfi</div>
+                            <div className="products__productButton">Lorem ipsum dolor sit amet.
+                             Et minima voluptas id galisum nulla est dicta veritatis qui aspernatur libero est rerum voluptas 
+                               voluptas ad voluptate vero sed architecto assumenda aut debitis dolores aut dolorem ratione? Omnis 
+                               ipsa et culpa omnis aut vero consequatur ad praesentium ipsa.</div>
+                        </div>
+
+                        <div className="products__product-three">
+                            <div className="products__productTitle"><img src={imgQuemSomos} alt={"imgQuemSomos"} /></div>
+                            <div className="products__productName">Lorem ipsum dolor sit amet</div>
+                            <div className="products__productButton">Lorem ipsum dolor sit amet.
+                             Et minima voluptas id galisum nulla est dicta veritatis qui aspernatur libero est rerum voluptas 
+                               voluptas ad voluptate vero sed architecto assumenda aut debitis dolores aut dolorem ratione? Omnis 
+                               ipsa et culpa omnis aut vero consequatur ad praesentium ipsa.</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div className="products" id="produtos">
+                    <h1><span className="products__details"><img src={iconCat} alt={"icon-cat"} /></span> Nossos serviços</h1>
                     <div className="products__productsList">
 
                         
