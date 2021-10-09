@@ -65,15 +65,14 @@ body {
     }
 
     h1 {
-    margin-bottom: 0px;
-    text-align: end;
-    font-family: Barlow;
-    font-weight: bold;
-    display: flex;
-    font-size: 32px;
-    line-height: 105px;
-    width: 462px;
-    text-transform: uppercase;
+      font-family: Barlow;
+      font-weight: bold;
+      display: flex;
+      font-size: 32px;
+      line-height: 105px;
+      max-width: 445px;
+      width: 100%;
+      text-transform: uppercase;
 
     }
 
@@ -86,8 +85,11 @@ body {
     }
 
     &__List {
-      display: flex;
-      justify-content: space-evenly;
+      margin: 0 auto;
+    /* max-width: 1583px; */
+    width: 1641px;
+    display: flex;
+    justify-content: space-around;
     }
 
     &__draKelly {
