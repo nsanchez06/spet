@@ -20,8 +20,8 @@ function Header() {
 
       <div className="header__informations">
         <span>quem somos</span>
-        <span>nossos servicos</span>
-        <span>equipe veterinaria</span>
+        <span>nossos serviços</span>
+        <span>equipe veterinária</span>
         <span>fale conosco</span>
       </div>
 
