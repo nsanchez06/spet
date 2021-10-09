@@ -93,23 +93,19 @@ body {
     }
 
     &__draKelly {
-      height: 381px;
-      width: 300px;
+      height: auto;
+      width: 536px;
+      position: relative;
       left: 0px;
       top: 0px;
-      border-radius: 4px;
-      background: hsl(0deg 0% 100%);
-      box-sizing: border-box;
     }
 
     &__draTwo {
-      height: 381px;
-      width: 300px;
+      height: auto;
+      width: 536px;
+      position: relative;
       left: 0px;
       top: 0px;
-      border-radius: 4px;
-      background: hsl(0deg 0% 100%);
-      box-sizing: border-box;
     }
 
     &__Name {
