@@ -142,7 +142,7 @@ body {
     margin: 0 auto;
     margin-bottom: 349px;
     img{
-      width: 550px;
+      width: 150px;
       height: auto;
       margin-bottom: 57px;
       margin-left: 4px;
@@ -156,11 +156,11 @@ body {
       font-family: Barlow;
       font-weight: bold;
       display: flex;
-      margin: 0px 0px 0 51px;
-      font-size: 32px;
-      line-height: 150px;
+      margin: 0px 0px 0px 50px;
+      font-size: 31px;
+      line-height: 151px;
       margin-bottom: 0;
-      max-width: 430px;
+      max-width: 490px;
       width: 100%;
       text-transform: uppercase;
 
@@ -169,7 +169,10 @@ body {
     &__details {
       display: flex;
       img{
-        width: 150px
+        height: auto;
+        margin-bottom: 57px;
+        margin-left: 8px;
+        padding: 0px 30px 0 10px;
       }
     }
 
@@ -180,17 +183,25 @@ body {
       justify-content: space-around;
     }
 
-    &__draKelly {
+    &__consulta {
       height: auto;
-      width: 536px;
+      width: 336px;
       position: relative;
       left: 0px;
       top: 0px;
     }
 
-    &__draTwo {
+    &__vacina {
       height: auto;
-      width: 536px;
+      width: 336px;
+      position: relative;
+      left: 0px;
+      top: 0px;
+    }
+    
+    &__cirurgia {
+      height: auto;
+      width: 336px;
       position: relative;
       left: 0px;
       top: 0px;

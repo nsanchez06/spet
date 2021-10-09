@@ -13,12 +13,17 @@ import freteGratis from '../../assets/frete-gratis.png';
 import mercadoPago from '../../assets/mercado-pago.png';
 import pix from '../../assets/pix.png';
 import boleto from '../../assets/boleto.png';
-import iconDog from '../../assets/icon-dog.png'
-import iconCat from '../../assets/icon-cat.png'
+import iconDog from '../../assets/icon-dog.png';
+import iconCat from '../../assets/icon-cat.png';
 
-// produtos
-import kellyPandolfi from '../../assets/kelly-pandolfi.jpg'
-import imgQuemSomos from '../../assets/img-quem-somos.jpg'
+// quem somos
+import kellyPandolfi from '../../assets/kelly-pandolfi.jpg';
+import imgQuemSomos from '../../assets/img-quem-somos.jpg';
+
+// serviços
+import consulta from '../../assets/consulta.png';
+import vacina from '../../assets/vacina.png';
+import cirurgia from '../../assets/cirurgia.png';
 
 
 
@@ -78,18 +83,27 @@ export const Home = () => {
 
                         
 
-                        <div className="nossosServicos__draKelly">
-                            <div><img src={kellyPandolfi} alt={"Dra Kelly Pandolfi"} /></div>
-                            <div className="nossosServicos__Name">Dra Kelly Pandolfi</div>
+                        <div className="nossosServicos__consulta">
+                            <div><img src={consulta} alt={"consulta"} /></div>
+                            <div className="nossosServicos__Name">Consulta</div>
                             <div className="nossosServicos__description">Lorem ipsum dolor sit amet.
                              Et minima voluptas id galisum nulla est dicta veritatis qui aspernatur libero est rerum voluptas 
                                voluptas ad voluptate vero sed architecto assumenda aut debitis dolores aut dolorem ratione? Omnis 
                                ipsa et culpa omnis aut vero consequatur ad praesentium ipsa.</div>
                         </div>
 
-                        <div className="nossosServicos__draTwo">
-                            <div><img src={imgQuemSomos} alt={"imgQuemSomos"} /></div>
-                            <div className="nossosServicos__Name">Lorem ipsum dolor sit amet</div>
+                        <div className="nossosServicos__vacina">
+                            <div><img src={vacina} alt={"vacina"} /></div>
+                            <div className="nossosServicos__Name">vacina</div>
+                            <div className="nossosServicos__description">Lorem ipsum dolor sit amet.
+                             Et minima voluptas id galisum nulla est dicta veritatis qui aspernatur libero est rerum voluptas 
+                               voluptas ad voluptate vero sed architecto assumenda aut debitis dolores aut dolorem ratione? Omnis 
+                               ipsa et culpa omnis aut vero consequatur ad praesentium ipsa.</div>
+                        </div>
+
+                        <div className="nossosServicos__cirurgia">
+                            <div><img src={cirurgia} alt={"cirurgia"} /></div>
+                            <div className="nossosServicos__Name">cirurgia</div>
                             <div className="nossosServicos__description">Lorem ipsum dolor sit amet.
                              Et minima voluptas id galisum nulla est dicta veritatis qui aspernatur libero est rerum voluptas 
                                voluptas ad voluptate vero sed architecto assumenda aut debitis dolores aut dolorem ratione? Omnis 
