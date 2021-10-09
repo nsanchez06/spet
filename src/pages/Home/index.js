@@ -87,9 +87,9 @@ export const Home = () => {
                             <div><img src={consulta} alt={"consulta"} /></div>
                             <div className="nossosServicos__Name">Consulta</div>
                             <div className="nossosServicos__description">Lorem ipsum dolor sit amet.
-                             Et minima voluptas id galisum nulla est dicta veritatis qui aspernatur libero est rerum voluptas 
-                               voluptas ad voluptate vero sed architecto assumenda aut debitis dolores aut dolorem ratione? Omnis 
-                               ipsa et culpa omnis aut vero consequatur ad praesentium ipsa.</div>
+                            Et minima voluptas id galisum nulla est dicta veritatis qui aspernatur libero est rerum voluptas 
+                            voluptas ad voluptate vero sed architecto assumenda aut debitis dolores aut dolorem ratione? Omnis 
+                            ipsa et culpa omnis aut vero consequatur ad praesentium ipsa.</div>
                         </div>
 
                         <div className="nossosServicos__vacina">
@@ -113,6 +113,45 @@ export const Home = () => {
                     </div>
 
                 </div>
+
+                <div className="equipeVeterinaria" id="equipeVeterinaria">
+                    <h1><span className="equipeVeterinaria__details"><img src={iconCat} alt={"icon-cat"} />equipe veterinária</span></h1>
+                    <div className="equipeVeterinaria__List">
+
+                        
+
+                        <div className="equipeVeterinaria__consulta">
+                            <div><iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fbandjornalismo%2Fvideos%2F671227460289884%2F&show_text=false&width=560&t=0"></iframe></div>
+                            <div className="equipeVeterinaria__Name">Consulta</div>
+                            <div className="equipeVeterinaria__description">Lorem ipsum dolor sit amet.
+                            Et minima voluptas id galisum nulla est dicta veritatis qui aspernatur libero est rerum voluptas 
+                            voluptas ad voluptate vero sed architecto assumenda aut debitis dolores aut dolorem ratione? Omnis 
+                            ipsa et culpa omnis aut vero consequatur ad praesentium ipsa.</div>
+                        </div>
+
+                        {/* <div className="equipeVeterinaria__vacina">
+                            <div><img src={vacina} alt={"vacina"} /></div>
+                            <div className="equipeVeterinaria__Name">vacina</div>
+                            <div className="equipeVeterinaria__description">Lorem ipsum dolor sit amet.
+                             Et minima voluptas id galisum nulla est dicta veritatis qui aspernatur libero est rerum voluptas 
+                               voluptas ad voluptate vero sed architecto assumenda aut debitis dolores aut dolorem ratione? Omnis 
+                               ipsa et culpa omnis aut vero consequatur ad praesentium ipsa.</div>
+                        </div> */}
+
+                        {/* <div className="equipeVeterinaria__cirurgia">
+                            <div><img src={cirurgia} alt={"cirurgia"} /></div>
+                            <div className="equipeVeterinaria__Name">cirurgia</div>
+                            <div className="equipeVeterinaria__description">Lorem ipsum dolor sit amet.
+                             Et minima voluptas id galisum nulla est dicta veritatis qui aspernatur libero est rerum voluptas 
+                               voluptas ad voluptate vero sed architecto assumenda aut debitis dolores aut dolorem ratione? Omnis 
+                               ipsa et culpa omnis aut vero consequatur ad praesentium ipsa.</div>
+                        </div> */}
+
+                    </div>
+
+                </div>
+
+                
 
                 {/* <div className="quemSomos" id="quem-somos">
 

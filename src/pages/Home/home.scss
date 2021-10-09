@@ -234,6 +234,104 @@ body {
     }
   }
 
+  .equipeVeterinaria {
+    max-width: 1990px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 349px;
+    img{
+      width: 150px;
+      height: auto;
+      margin-bottom: 57px;
+      margin-left: 4px;
+
+    }
+    img:hover {
+      cursor: pointer;
+    }
+
+    h1 {
+      font-family: Barlow;
+      font-weight: bold;
+      display: flex;
+      margin: 0px 0px 0px 50px;
+      font-size: 31px;
+      line-height: 151px;
+      margin-bottom: 0;
+      max-width: 490px;
+      width: 100%;
+      text-transform: uppercase;
+
+    }
+
+    &__details {
+      display: flex;
+      img{
+        height: auto;
+        margin-bottom: 57px;
+        margin-left: 8px;
+        padding: 0px 30px 0 10px;
+      }
+    }
+
+    &__List {
+      margin: 0 auto;
+      width: 1641px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    &__consulta {
+      height: auto;
+      width: 336px;
+      position: relative;
+      left: 0px;
+      top: 0px;
+    }
+
+    &__vacina {
+      height: auto;
+      width: 336px;
+      position: relative;
+      left: 0px;
+      top: 0px;
+    }
+    
+    &__cirurgia {
+      height: auto;
+      width: 336px;
+      position: relative;
+      left: 0px;
+      top: 0px;
+    }
+
+    &__Name {
+      font-family: Barlow;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      color: #000000;
+      margin-bottom: 20px;
+      text-align: center;
+      text-transform: uppercase;
+
+    }
+
+    &__description {
+      text-align: center;
+      margin-top: 17px;
+      padding: 10px 0px 10px 0px;
+      border-radius: 6px;
+      color: hsl(0deg 0% 0%);
+      font-family: Barlow;
+      font-style: normal;
+      font-size: 16px;
+      text-align: justify;
+      line-height: 24px;
+
+    }
+  }
+
   .newsletter {
     &__content {
       display: none;
