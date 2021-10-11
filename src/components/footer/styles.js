@@ -2,11 +2,10 @@ import styled from 'styled-components';
 
 export const FooterWrapper = styled.footer`
   .footerContent {
-    display: none;
     background-color: black;
-    color: yellow;
+    color: hsl(0deg, 0%, 57%);
     padding: 0;
     text-align: center;
-      width: 100%;
+    width: 100%;
     }
 `;
