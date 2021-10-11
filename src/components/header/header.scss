@@ -31,8 +31,11 @@
         font-size: 15px;
         align-items: center;
         justify-content: space-around;
-        cursor: pointer;
         text-transform: uppercase;
+
+        span {
+          cursor: pointer;
+        }
       }
 
       &__search-container {
