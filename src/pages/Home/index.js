@@ -152,6 +152,29 @@ export const Home = () => {
 
                 </div>
 
+                <div className="faleConosco" id="faleConosco">
+                    <h1><span className="faleConosco__details">Fale Conosco</span></h1>
+                    <div className="faleConosco__List">
+
+                        
+
+                    <form className="faleConosco__form">
+                        <label>nome:
+                         <input type="text" />
+                        </label>
+                        <label>E-mail:
+                         <input type="text" />
+                        </label>
+                        <label>Telefone:
+                         <input type="text" />
+                        </label>
+                        <button>enviar</button>
+                    </form> 
+
+                    </div>
+
+                </div>
+
                 
 
                 {/* <div className="quemSomos" id="quem-somos">
@@ -167,7 +190,7 @@ export const Home = () => {
 
                 </div> */}
 
-                <div className="newsletter__content" id="newsletter">
+                {/* <div className="newsletter__content" id="newsletter">
                     <div className="newsletter__text">
                         <span className="newsletter__">//</span> 
                         receba novidades das nossas nerdices.
@@ -175,7 +198,7 @@ export const Home = () => {
                         <div className="newsletter__email">
                             <Storege />
                         </div>
-                </div>
+                </div> */}
             </div>
 
             <Footer />
