@@ -17,6 +17,9 @@
   justify-content: space-between;
   color: black;
   z-index: 1;
+  @media (max-width: 768px) {
+    max-width: 511px;
+  }
     
       &__logo {
         margin: 5px 50px;
@@ -83,7 +86,7 @@
   }
   .header__logo {
     max-width: 300px;
-    margin: 10px 20px;
+    margin: 0 auto;
   }
   .header__login {
     display: none !important;
