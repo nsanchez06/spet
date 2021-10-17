@@ -17,6 +17,15 @@
   justify-content: space-between;
   color: black;
   z-index: 1;
+
+  a {
+    color: black;
+    text-decoration: none;
+
+    :hover {
+     color: #0097c3;
+    }
+  }
   @media (max-width: 768px) {
     max-width: 511px;
   }

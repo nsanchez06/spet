@@ -21,10 +21,10 @@ function MenuMobile() {
                 <span></span>
 
                 <ul id="menu">
-                    <a href="#"><li>Home</li></a>
-                    <a href="#"><li>nossos produtos</li></a>
-                    <a href="#"><li>sobre nós</li></a>
-                    <a href="#"><li>contato</li></a>
+                    <a href="#"><li>Quem Somos</li></a>
+                    <a href="#"><li>Nossos serviços</li></a>
+                    <a href="#"><li>Equipe Veterinária</li></a>
+                    <a href="#"><li>Fale conosco</li></a>
                 </ul>
             </div>
     );

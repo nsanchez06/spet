@@ -19,10 +19,10 @@ function Header() {
       <div className="header__logo"><img src={logo} alt={"logo-Spet"}  /></div>
 
       <div className="header__informations">
-        <span>quem somos</span>
-        <span>nossos serviços</span>
-        <span>equipe veterinária</span>
-        <span>fale conosco</span>
+      <a href="#quemSomos"><span>quem somos</span></a>
+        <a href="#nossosServicos"><span>nossos serviços</span></a>
+        <a href="#equipeVeterinaria"><span>equipe veterinária</span></a>
+        <a href="#faleConosco"><span>fale conosco</span></a>
       </div>
 
       <div className="header__login-cart">

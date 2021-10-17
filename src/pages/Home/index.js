@@ -15,6 +15,7 @@ import pix from '../../assets/pix.png';
 import boleto from '../../assets/boleto.png';
 import iconDog from '../../assets/icon-dog.png';
 import iconCat from '../../assets/icon-cat.png';
+import equipeVeterinaria from '../../assets/equipe-veterinaria.png';
 
 // quem somos
 import kellyPandolfi from '../../assets/kelly-pandolfi.jpg';
@@ -115,7 +116,7 @@ export const Home = () => {
                 </div>
 
                 <div className="equipeVeterinaria" id="equipeVeterinaria">
-                    <h1><span className="equipeVeterinaria__details"><img src={iconCat} alt={"icon-cat"} />equipe veterinária</span></h1>
+                    <h1><span className="equipeVeterinaria__details"><img src={equipeVeterinaria} alt={"equipe-veterinaria"} />equipe veterinária</span></h1>
                     <div className="equipeVeterinaria__List">
 
                         
