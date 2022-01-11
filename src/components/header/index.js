@@ -21,7 +21,7 @@ function Header() {
       <div className="header__informations">
       <a href="#quemSomos"><span>quem somos</span></a>
         <a href="#nossosServicos"><span>nossos serviços</span></a>
-        <a href="#equipeVeterinaria"><span>equipe veterinária</span></a>
+        <a href="#equipeVeterinaria"><span>onde estamos</span></a>
         <a href="#faleConosco"><span>fale conosco</span></a>
       </div>
 

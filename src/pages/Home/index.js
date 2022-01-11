@@ -168,8 +168,8 @@ export const Home = () => {
                         <label>Telefone:
                          <input type="text" />
                         </label>
-                        <button>enviar</button>
                     </form> 
+                        <button>enviar</button>
 
                     </div>
 
